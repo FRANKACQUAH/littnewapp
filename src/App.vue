@@ -1,13 +1,9 @@
 <template>
 <div id="app"> 
 <HelloWorld/>
+<Navbar/>
 <!-- My hero section -->
-<section id="header">
-<div class="navbar" >
-
-</div>
-</section>
-  <section id="hero">
+ <section id="hero">
   <div class="hero container">
   <div>
   <!-- Text reveal effect. Every text effect should have a diff tag -->
@@ -142,11 +138,7 @@ nostrum animi sint enim maiores dicta? Temporibus tempore at deserunt, <a href="
 </div>
 </section>
  <!-- End of card -->
-  <!-- Begining of contact us -->
-<footer id="footer" style="background-color:rgb(26, 24, 24)">
-<p class="footer-text">Copyright @2022 My Leanicon Technology App. All rights reserved.</p>
-</footer>
-    <!--End of Footer -->
+ <Footer/>
 </div>
   <!-- End of element -->
 </template>
@@ -154,11 +146,15 @@ nostrum animi sint enim maiores dicta? Temporibus tempore at deserunt, <a href="
 <script>
 /*This founction should not be cleared.It can only be modified to call another element*/
 import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/navbar.vue'
+import Footer from './components/footer.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    Navbar,
+    Footer,
     /*All other components can be called here within the javascript and referenced at the begining of App.vue*/
   }
 }
@@ -307,6 +303,9 @@ padding:100px 0;
   text-transform:uppercase;
   letter-spacing:2rem;
 }
+.section-title span{
+color:crimson;
+}
 #services .section-title p{
   color:white;
   font-size:1.4rem;
@@ -365,16 +364,7 @@ p{
   text-align:center;
   line-height:1.9rem;
 }
-#services .service-bottom .icon{
-  height:80px;
-  width:80px;
-  margin-bottom:20px;
-}
-img{
-height:100%;
-width:100%;
-object-fit: cover;
-}
+
 /*styling the project section*/
 #projects .project{
   flex-direction:column;
@@ -388,8 +378,8 @@ object-fit: cover;
 .card{
 background-color:rgb(26, 24, 24);
 color:white;
-margin-top:3px;
-margin:5px;
+margin-top:0 auto;
+margin:10px;
 padding:5px;
 text-align:center;
 text-transform:uppercase;
@@ -453,7 +443,6 @@ font-weight:500;
 #footer{
  height:0 auto;
 }
-
 .footer-text{
  color:white;
 }
