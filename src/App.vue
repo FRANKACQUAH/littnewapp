@@ -1,6 +1,4 @@
 <template>
-<!-- An element should be left before coding starts. Ex: Class or Id-->
-<!-- All codes should be within the first element (<div) as well as the template-->
 <div id="app"> 
 <HelloWorld/>
 <!-- My hero section -->
