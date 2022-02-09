@@ -54,8 +54,8 @@ placeat quod enim eum architecto sed! Lorem, ipsum dolor sit amet consectetur ad
 nostrum animi sint enim maiores dicta? Temporibus tempore at deserunt, <a href="https://google.com" style="color:crimson">Read more</a></p>
 </div>
 <div class="service-item">
-<div class="icon"><img src="./assets/img/consulting.png"></div>
-<h2>Consulting & Training</h2>
+<div class="icon"><img src="./assets/img/podcast.png"></div>
+<h2>Publish Podcast</h2>
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis libero, ut perspiciatis officia odio 
 nostrum animi sint enim maiores dicta? Temporibus tempore at deserunt, 
 placeat quod enim eum architecto sed! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis libero, ut perspiciatis officia odio 
@@ -69,8 +69,10 @@ nostrum animi sint enim maiores dicta? Temporibus tempore at deserunt, <a href="
 <section class="section-title">
 <h1>Published <span>Projects</span></h1>
 </section>
-<section class="container">
-<div class="card" style="width: 18rem;">
+<section class="news-card">
+<div class="row">
+  <div class="col-md-3">
+<div class="card" style="">
   <img src="./assets/img/man.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Project Title</h5>
@@ -78,7 +80,9 @@ nostrum animi sint enim maiores dicta? Temporibus tempore at deserunt, <a href="
     <a href="#" class="btn btn" style="background-color:crimson">Read more</a>
   </div>
   </div>
-  <div class="card" style="width: 18rem;">
+  </div>
+  <div class="col-md-3">
+<div class="card" style="">
   <img src="./assets/img/man.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Project Title</h5>
@@ -86,25 +90,9 @@ nostrum animi sint enim maiores dicta? Temporibus tempore at deserunt, <a href="
     <a href="#" class="btn btn" style="background-color:crimson">Read more</a>
   </div>
   </div>
-  <div class="card" style="width: 18rem;">
-  <img src="./assets/img/man.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Project Title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn" style="background-color:crimson">Read more</a>
   </div>
-</div>
-<div class="card" style="width: 18rem;">
-  <img src="./assets/img/man.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Project Title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn" style="background-color:crimson">Read more</a>
-  </div>
-</div>
-</section>
-<section class="container">
-<div class="card" style="width: 18rem;">
+  <div class="col-md-3">
+<div class="card" style="">
   <img src="./assets/img/man.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Project Title</h5>
@@ -112,7 +100,9 @@ nostrum animi sint enim maiores dicta? Temporibus tempore at deserunt, <a href="
     <a href="#" class="btn btn" style="background-color:crimson">Read more</a>
   </div>
   </div>
-  <div class="card" style="width: 18rem;">
+  </div>
+  <div class="col-md-3">
+<div class="card" style="">
   <img src="./assets/img/man.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Project Title</h5>
@@ -120,22 +110,48 @@ nostrum animi sint enim maiores dicta? Temporibus tempore at deserunt, <a href="
     <a href="#" class="btn btn" style="background-color:crimson">Read more</a>
   </div>
   </div>
-  <div class="card" style="width: 18rem;">
+  </div>
+  <div class="col-md-3">
+<div class="card" style="">
   <img src="./assets/img/man.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Project Title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="#" class="btn btn" style="background-color:crimson">Read more</a>
   </div>
-</div>
-<div class="card" style="width: 18rem;">
+  </div>
+  </div>
+  <div class="col-md-3">
+<div class="card" style="">
   <img src="./assets/img/man.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Project Title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="#" class="btn btn" style="background-color:crimson">Read more</a>
   </div>
-</div>
+  </div>
+  </div>
+  <div class="col-md-3">
+<div class="card" style="">
+  <img src="./assets/img/man.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Project Title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn" style="background-color:crimson">Read more</a>
+  </div>
+  </div>
+  </div>
+  <div class="col-md-3">
+<div class="card" style="">
+  <img src="./assets/img/man.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Project Title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn" style="background-color:crimson">Read more</a>
+  </div>
+  </div>
+  </div>
+  </div>
 </section>
  <!-- End of card -->
  <Footer/>
