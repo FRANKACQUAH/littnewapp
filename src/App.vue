@@ -1,6 +1,5 @@
 <template>
 <div id="app"> 
-<HelloWorld/>
 <Navbar/>
 <!-- My hero section -->
  <section id="hero">
@@ -157,18 +156,20 @@ nostrum animi sint enim maiores dicta? Temporibus tempore at deserunt, <a href="
  <Footer/>
 </div>
   <!-- End of element -->
+   <!-- This classis to give the project a fixed width. This should be done once in the App.vue -->
+  <div class="conatiner">
+  <router-view></router-view>
+  </div>
 </template>
 
 <script>
 /*This founction should not be cleared.It can only be modified to call another element*/
-import HelloWorld from './components/HelloWorld.vue'
-import Navbar from './components/navbar.vue'
-import Footer from './components/footer.vue'
+import Navbar from './views/navbar.vue'
+import Footer from '@/components/footer.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     Navbar,
     Footer,
     /*All other components can be called here within the javascript and referenced at the begining of App.vue*/

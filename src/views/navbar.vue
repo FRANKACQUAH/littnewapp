@@ -1,22 +1,21 @@
 <template>
-  <div id="header">
+<div id="header">
     <div class="header1">
       <div class="navbar">
         <div class="brand">
           <a href="#hero"
-            ><h1>Lean Icon<span> Logo</span></h1></a
-          >
+            ><h1>Lean Icon<span> Logo</span></h1></a>
         </div>
         <div class="nav-list">
           <div class="humburger" @click="showHam" style="background-color:rgb(31, 30, 30, 0.24);">
             <div class="bar"></div>
           </div>
           <ul class="hamburger-inactive">
+            <li><router-link to="/projects" tag="a">Home</router-link></li>
             <li><a href="#" data-after="Home">Home</a></li>
-            <li><a href="#" data-after="Services">Services</a></li>
-            <li><a href="#" key="" data-after="Projects">Projects</a></li>
-            <li><a href="#" data-after="About us">About us</a></li>
-            <li><a href="#" data-after="Contact">Contact</a></li>
+            <li><a href="#" key="" data-after="About us">About us</a></li>
+            <li><a href="#" data-after="Projects">Projects</a></li>
+            <li><a href="#" data-after="Register/Login">Register/Login</a></li>
           </ul>
         </div>
       </div>

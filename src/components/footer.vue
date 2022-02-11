@@ -10,6 +10,7 @@
 <li><a href="#" style="color:crimson"><i class="fa fa-youtube"> MyLeaniconTech </i></a></li>
 </ul>
 <div class="footer-bottom">
+<p>Contact:(+233(0) 546780223 / 506825542</p>
 <p class="section">Copyright &copy;2022 My Leanicon Technolgy App. All Rights Reserved</p>
 </div>
 </footer>
@@ -27,8 +28,9 @@
 footer{
  background:rgb(26, 24, 24);
  height:auto;
- width:100vw;
+ width:100%;
  padding-top:40px;
+ margin-top:20px;
 }
 .footer-content{
  display:flex;
